@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PLCrypto_Example' do
+  pod 'PLCrypto', :path => '../'
+
+  target 'PLCrypto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
