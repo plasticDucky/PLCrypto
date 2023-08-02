@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jh.park/PLCrypto'
+  s.homepage         = 'https://github.com/plasticDucky/PLCrypto'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jh.park' => 'jhpark27@nm-metaworld.com' }
-  s.source           = { :git => 'https://github.com/jh.park/PLCrypto.git', :tag => s.version.to_s }
+  s.author           = { 'plasticDucky' => 'aaax27@gmail.com' }
+  s.source           = { :git => 'https://github.com/plasticDucky/PLCrypto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'PLCrypto/Classes/**/*'
   

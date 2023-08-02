@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import PLCrypto
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var plainTextLabel: UILabel!
+    
+    @IBOutlet weak var hashedTextLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.plainTextLabel.text = "666666"
+        
+        self.hashedTextLabel.text = PLCrypto.sha256("666666".data(using: .utf8)!).toHexString()
     }
 
     override func didReceiveMemoryWarning() {

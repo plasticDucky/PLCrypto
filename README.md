@@ -1,6 +1,6 @@
 # PLCrypto
 
-[![CI Status](https://img.shields.io/travis/jh.park/PLCrypto.svg?style=flat)](https://travis-ci.org/jh.park/PLCrypto)
+[![CI Status](https://img.shields.io/travis/PlasticDucky/PLCrypto.svg?style=flat)](https://travis-ci.org/jh.park/PLCrypto)
 [![Version](https://img.shields.io/cocoapods/v/PLCrypto.svg?style=flat)](https://cocoapods.org/pods/PLCrypto)
 [![License](https://img.shields.io/cocoapods/l/PLCrypto.svg?style=flat)](https://cocoapods.org/pods/PLCrypto)
 [![Platform](https://img.shields.io/cocoapods/p/PLCrypto.svg?style=flat)](https://cocoapods.org/pods/PLCrypto)
@@ -22,7 +22,7 @@ pod 'PLCrypto'
 
 ## Author
 
-jh.park, jhpark27@nm-metaworld.com
+PlasticDucky, aaax27@gmail.com
 
 ## License
 
