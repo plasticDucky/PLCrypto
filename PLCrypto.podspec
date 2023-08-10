@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/plasticDucky/PLCrypto'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'plasticDucky' => 'aaax27@gmail.com' }
-  s.source           = { :git => 'https://github.com/plasticDucky/PLCrypto.git', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/plasticDucky/PLCrypto.git', :tag => '0.2.0' }
   s.module_name      = 'PLCrypto'
   s.swift_version    = '4.0'
   s.ios.deployment_target = '13.0'
